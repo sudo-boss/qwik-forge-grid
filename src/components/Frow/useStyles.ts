@@ -15,19 +15,56 @@ export const setDebugStyles = (): UniqueCSS => {
   // ----STYLES
 
   const debugStyles = `
-    .${parentClassName}{
+    .${parentClassName} {
       background: #212121;
     }
-    .${parentClassName} .forge-col-element:nth-child(1n){
+    .${parentClassName} .forge-col-element:nth-child(15n+1) {
       background: #0081e3;
     }
-    .${parentClassName} .forge-col-element:nth-child(4n){
-        background: #18b6f6;
-      }
-    .${parentClassName} .forge-col-element:nth-child(3n){
-        background: #7b0fab;
-      }
-  `;
+    .${parentClassName} .forge-col-element:nth-child(15n+2) {
+      background: #18b6f6;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+3) {
+      background: #7b0fab;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+4) {
+      background: #e600d3;  /* Añade nuevos colores aquí */
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+5) {
+      background: #ffa500;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+6) {
+      background: #006080;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+7) {
+      background: #fab7fa;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+8) {
+      background: #ff4500;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+9) {
+      background: #9acd32;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+10) {
+      background: #bb6af6;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+11) {
+      background: #c3c6be;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+12) {
+      background: #2be2d3;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+13) {
+      background: #7fff00;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+14) {
+      background: #ffb32f;
+    }
+    .${parentClassName} .forge-col-element:nth-child(15n+15) {
+      background: #ffd700;
+    }
+`;
+
   return { styles: debugStyles, parentClassName };
 };
 
