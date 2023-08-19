@@ -1,7 +1,7 @@
 {
   "name": "qwik-forge-grid",
   "version": "2.0.0",
-  "description": "Create a reusable Qwik component library",
+  "description": "Awesome responsive grid system for Qwik :) that allows you to control the grid based on percentage instead of clasic 12 or 24 columns we use percentage",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",
