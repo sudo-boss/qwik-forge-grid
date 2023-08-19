@@ -21,7 +21,7 @@ npm install --save react-forge-grid
 
 ```tsx
 import React, { Component } from 'react'
-import {Frow, Fcol} from 'qwik-grid-fm'
+import {Frow, Fcol} from 'qwik-forge-grid'
 import 'react-forge-grid/lib/path/for/styles.css'; // Import the styles!!!
 
 function BasicUsage() {
@@ -30,7 +30,7 @@ function BasicUsage() {
     <>
       <h1>Basic Usage</h1>
       <hr />
-      <Frow hSpace={2} vSpace={2} debug nextjs> {/* Active nextjs always in nextjs apps if using "debug" prop*/}
+      <Frow hSpace={2} vSpace={2} debug>
         <Fcol span={70}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nisi. Nihil provident sunt
           tempore, exercitationem aspernatur atque eum quidem vero natus, expedita fugiat blanditiis

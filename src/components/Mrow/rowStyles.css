@@ -1,0 +1,160 @@
+/***********************/
+.row-space-0{
+   --hSpace: 0px;
+}
+.row-space-1{
+  --hSpace: 1px;
+}
+.row-space-2{
+  --hSpace: 2px;
+}
+.row-space-3 {
+  --hSpace: 3px;
+}
+.row-space-4 {
+  --hSpace: 4px;
+}
+.row-space-5 {
+  --hSpace: 5px;
+}
+.row-space-6 {
+  --hSpace: 6px;
+}
+.row-space-7 {
+  --hSpace: 7px;
+}
+.row-space-8 {
+  --hSpace: 8px;
+}
+.row-space-9 {
+  --hSpace: 9px;
+}
+.row-space-10 {
+  --hSpace: 10px;
+}
+.row-space-11 {
+  --hSpace: 11px;
+}
+.row-space-12 {
+  --hSpace: 12px;
+}
+.row-space-13 {
+  --hSpace: 13px;
+}
+.row-space-14 {
+  --hSpace: 14px;
+}
+.row-space-15 {
+  --hSpace: 15px;
+}
+.row-space-16 {
+  --hSpace: 16px;
+}
+.row-space-17 {
+  --hSpace: 17px;
+}
+.row-space-18 {
+  --hSpace: 18px;
+}
+.row-space-19 {
+  --hSpace: 19px;
+}
+.row-space-20 {
+  --hSpace: 20px;
+}
+.row-space-21 {
+  --hSpace: 21px;
+}
+.row-space-22 {
+  --hSpace: 22px;
+}
+.row-space-23 {
+  --hSpace: 23px;
+}
+.row-space-24 {
+  --hSpace: 24px;
+}
+.row-space-25 {
+  --hSpace: 25px;
+}
+.row-space-26 {
+  --hSpace: 26px;
+}
+.row-space-27 {
+  --hSpace: 27px;
+}
+.row-space-28 {
+  --hSpace: 28px;
+}
+.row-space-29 {
+  --hSpace: 29px;
+}
+.row-space-30 {
+  --hSpace: 30px;
+}
+.row-space-31 {
+  --hSpace: 31px;
+}
+.row-space-32 {
+  --hSpace: 32px;
+}
+.row-space-33 {
+  --hSpace: 33px;
+}
+.row-space-34 {
+  --hSpace: 34px;
+}
+.row-space-35 {
+  --hSpace: 35px;
+}
+.row-space-36 {
+  --hSpace: 36px;
+}
+.row-space-37 {
+  --hSpace: 37px;
+}
+.row-space-38 {
+  --hSpace: 38px;
+}
+.row-space-39 {
+  --hSpace: 39px;
+}
+.row-space-40 {
+  --hSpace: 40px;
+}
+.row-space-41 {
+  --hSpace: 41px;
+}
+.row-space-42 {
+  --hSpace: 42px;
+}
+.row-space-43 {
+  --hSpace: 43px;
+}
+.row-space-44 {
+  --hSpace: 44px;
+}
+.row-space-45 {
+  --hSpace: 45px;
+}
+.row-space-46 {
+  --hSpace: 46px;
+}
+.row-space-47 {
+  --hSpace: 47px;
+}
+.row-space-48 {
+  --hSpace: 48px;
+}
+.row-space-49 {
+  --hSpace: 49px;
+}
+.row-space-50 {
+  --hSpace: 50px;
+}
+
+.forge-row-wrapper {
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+  gap: var(--hSpace);
+}
