@@ -11,9 +11,9 @@ export interface FrowProps {
   hAlign?: 'center' | 'start' | 'end';
   /** Vertical alignment for all the "Cols" in this "Row" */
   vAlign?: 'top' | 'middle' | 'bottom';
-  /** Horizontal space in px from 0 - 10 between all the "Cols" in this "Row" */
+  /** Horizontal space in px from 0 - 50 between all the "Cols" in this "Row" */
   hSpace?: number;
-  /** Vertical space in px from 0 - 10 between all the "Cols" in this "Row" */
+  /** Vertical space in px from 0 - 50 between all the "Cols" in this "Row" */
   vSpace?: number;
   /** Useful property for development, gives background colors to your "Row" and "Cols" to build easier your layout */
   debug?: boolean;

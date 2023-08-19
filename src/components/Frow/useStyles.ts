@@ -85,8 +85,8 @@ export function getRowClassNames(props: Props) {
 
   const classNames = ['forge-row-element'];
 
-  const y = in10Range(vSpace);
-  const x = in10Range(hSpace);
+  const y = in50Range(vSpace);
+  const x = in50Range(hSpace);
 
   classNames.push(`row-space-y-${y}`);
   classNames.push(`row-space-x-${x}`);
@@ -98,9 +98,9 @@ export function getRowClassNames(props: Props) {
   return classNames.join(' ');
 }
 
-/** Numbers in a range of 0 - 10 */
-function in10Range(number?: number) {
-  if (number && number >= 0 && number <= 10) {
+/** Numbers in a range of 0 - 50 */
+function in50Range(number?: number) {
+  if (number && number >= 0 && number <= 50) {
     return number;
   }
   return 0;

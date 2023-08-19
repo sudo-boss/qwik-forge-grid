@@ -13,7 +13,7 @@ export const BasicUsage = component$(() => {
     <>
       <h1>Basic Usage</h1>
       <hr />
-      <Frow hSpace={2} vSpace={2} debug>
+      <Frow hSpace={0} vSpace={0} debug>
         <Fcol span={70}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nisi.
           Nihil provident sunt tempore, exercitationem aspernatur atque eum
@@ -27,7 +27,7 @@ export const BasicUsage = component$(() => {
         <Fcol span={25}>25%</Fcol>
         <Fcol span={25}>25%</Fcol>
         <Fcol span={40}>40%</Fcol>
-        <Fcol span={80}>80%</Fcol>
+        <Fcol span={60}>60%</Fcol>
       </Frow>
     </>
   );
