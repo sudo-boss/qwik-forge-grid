@@ -66,8 +66,9 @@ function BasicUsage() {
     </>
   );
 }
-![Grid for qwik-forge-grid](image.png)
 ```
+![Grid for qwik-forge-grid](image.png)
+
 ## Import the styles if not working!!!
 import 'node_modules/qwik-forge-grid/lib/build/(some css file).css'; // Import the styles if not working!!!
 
