@@ -46,7 +46,7 @@ export const Frow = component$((props: FrowProps) => {
   // -----------------------RENDER
   return (
     <>
-      {debugStyles ? <style>{debugStyles.styles}</style> : null}
+      {debugStyles ? <style  dangerouslySetInnerHTML={debugStyles.styles}/> : null}
       <div class={fullClassNames} style={style}>
         <Slot />
       </div>

@@ -1,6 +1,6 @@
 {
   "name": "qwik-forge-grid",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Awesome responsive grid system for Qwik :) that allows you to control the grid based on percentage instead of clasic 12 or 24 columns we use percentage",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
